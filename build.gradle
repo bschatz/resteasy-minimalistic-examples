@@ -1,0 +1,7 @@
+plugins { id 'war' }
+repositories { mavenCentral() }
+
+dependencies 
+{
+    implementation("org.jboss.resteasy:resteasy-servlet-initializer:6.2.3.Final")
+}	
